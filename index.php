@@ -5,7 +5,7 @@
 			<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 			<title>Carbono 0 | Início </title>
 			<link rel="stylesheet" type="text/css" href="estilo1.css">
-			<link rel="shortcut icon" href="logo_carbonozero.png" >
+			<link rel="shortcut icon" href="Img/logo_carbonozero.png" >
 			
 			<style>
 				#olae {
@@ -70,14 +70,14 @@
 			<div id="home"></div>
 
 			<div id="header">
-				<a href="#home"><div id="logo"><i><img src="logo_carbonozero.png" alt="" width="185px" height="185px"></i></div></a>
+				<a href="#home"><div id="logo"><i><img src="Img/logo_carbonozero.png" alt="" width="185px" height="185px"></i></div></a>
 
 				<div id="social">
 					<ul>
-						<li><a href="https://www.facebook.com/" target="_blank"><img src="face.png" width="40px" height="40px" alt=""/></a></li>
-						<li><a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img src="insta.png" width="40px" height="40px" alt=""/></a></li>
-						<li><a href="https://twitter.com/?lang=pt-br" target="_blank"><img src="twitter.png" width="40px" height="40px" alt=""/></a></li>
-						<li><a href="https://www.youtube.com/" target="_blank"><img src="youtube.png" width="40px" height="40px" alt=""/></a></li> 
+						<li><a href="https://www.facebook.com/" target="_blank"><img src="Img/face.png" width="40px" height="40px" alt=""/></a></li>
+						<li><a href="https://www.instagram.com/?hl=pt-br" target="_blank"><img src="Img/insta.png" width="40px" height="40px" alt=""/></a></li>
+						<li><a href="https://twitter.com/?lang=pt-br" target="_blank"><img src="Img/twitter.png" width="40px" height="40px" alt=""/></a></li>
+						<li><a href="https://www.youtube.com/" target="_blank"><img src="Img/youtube.png" width="40px" height="40px" alt=""/></a></li> 
 					</ul>
 				</div>
 
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 
-			<div id="banner1">			
+			<div id="banner1"><img src="Img/banner1920.fw.png">			
 				<?php 
 					$conexao = mysqli_connect('127.0.0.1','root', '', 'carbono') or die ("A conexão não foi executada com sucesso");
 					$consulta = "select id, arvore, local, capital from estatistica";
@@ -137,13 +137,13 @@
 					
 					<div>
 						<ul>
-							<li id="ima1"><img  src="parceirias.png" width="100" height="100" alt=""/></li>
+							<li id="ima1"><img  src="Img/parceirias.png" width="100" height="100" alt=""/></li>
 							<li id="patrocinadores">Patrocinadores</li>
 							<li id="tex1">Nam & Linearum rectarum & Circulorum descriptiones in quibus Geometria fundatur, ad Mechanicam pertinent. Has lineas describere Geometria non docet sed postulat.</li>
-							<li id="ima2"><img src="empresas.png" width="100" height="100" alt=""/></li>
+							<li id="ima2"><img src="Img/empresas.png" width="100" height="100" alt=""/></li>
 							<li id="empresas">Empresas</li>
 							<li id="tex2">Ex Mechanica postulatur horum solutio, in Geometria docetur solutorum usus. Ac gloriatur Geometria quod tam paucis principiis aliunde petitis tam multa præstet. </li>
-							<li id="ima3"><img src="voluntarios.png" width="100" height="100" alt=""/></li>
+							<li id="ima3"><img src="Img/voluntarios.png" width="100" height="100" alt=""/></li>
 							<li id="vonlutario">Voluntário</li>
 							<li id="tex3">Nos autem non Artibus sed Philosophiæ consulentes, deq; potentiis non manualibus sed naturalibus scribentes, ea maxime tractamus quæ ad Gravitatem</li>
 						</ul>
@@ -156,7 +156,7 @@
 				<h2>Faq</h2>
 				<h3 id="text">Perguntas Frequentes</h3>
 				
-				<div id="ima4"><i><img src="oioioi1920.fw.png" width="1920" height="526" alt=""/></i></div>
+				<div id="ima4"><i><img src="Img/oioioi1920.fw.png" width="1920" height="526" alt=""/></i></div>
 
                 <h4 id="per1">O que é um pageview?</h4>
 				<p id="resp1">É a quantidade de páginas visualizadas no seu site.</p>
@@ -209,7 +209,7 @@
 			</div>
 			
 			<div id="footer">
-				<div id="logoFooter"><img src="logo_carbonozero.png" alt="" width="100px" height="100px"/></div>
+				<div id="logoFooter"><img src="Img/logo_carbonozero.png" alt="" width="100px" height="100px"/></div>
 			</div>
 			
 		</body>

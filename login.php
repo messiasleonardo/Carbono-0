@@ -17,7 +17,7 @@
 			echo "</head>";
 			
 			echo "<body>";
-				echo "<div id='logo'><img src='logo_carbonozero.png' width='185px' height='185px'></div>";
+				echo "<div id='logo'><img src='Img/logo_carbonozero.png' width='185px' height='185px'></div>";
 			echo "</body>";
 			
 			echo "<p align='center'>Usuário não encontrado!</p>";
@@ -35,7 +35,7 @@
 			echo "</head>";
 			
 			echo "<body>";
-				echo "<div id='logo'><img src='logo_carbonozero.png' width='185px' height='185px'></div>";
+				echo "<div id='logo'><img src='Img/logo_carbonozero.png' width='185px' height='185px'></div>";
 			echo "</body>";
 			
 			echo "<p align='center'>Senha Incorreta!</p>";
