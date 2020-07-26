@@ -1,0 +1,159 @@
+/*Ultra HD Devices*/
+@media screen and (max-width: 1920px) {
+	* {
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+
+	img {   /*imagens flexiveis*/
+		max-width: 100%;   
+		height: auto;  
+	} 
+
+	a:link {
+		font-family:"Aqua Grotesque";
+		color:#595959;
+		text-decoration:none;
+		font-weight:bolder;
+		font-size:17px;
+	}
+	
+	a:visited {
+		font-family:"Aqua Grotesque";		
+		color:#595959;
+		text-decoration:none;
+		font-weight:bolder;
+	}
+
+	a:hover {
+		font-family:"Aqua Grotesque";	
+		color:#A4D25C;
+		text-decoration:none;
+		font-weight:bolder;
+	}
+	
+	#logo {
+		position:absolute;
+		width:20%;
+		height:10%;
+		margin-left:10%;
+		font-weight:bolder;
+	}
+	
+	#lik {
+		position:absolute;
+		width:10%;
+		height:200px;
+		margin-top:20%;
+		font-family:"Aqua Grotesque";	
+		margin-left:19%;
+		font-size:1.6em;
+		font-weight:bolder;
+	}
+	
+	#lik2 {
+		position:absolute;
+		width:50%;
+		margin-top:20%;
+		margin-left:29%;
+		font-family:"Aqua Grotesque";
+		color:#595959;
+		font-size:1.4em;
+		font-weight:bolder;
+	}
+}
+
+/*Laptops and Small Desks*/
+@media screen and (max-width: 1366px) {
+	* {
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+
+	img {   /*imagens flexiveis*/
+		max-width: 100%;   
+		height: auto;  
+	} 
+
+	a:link {
+		font-family:"Aqua Grotesque";
+		color:#595959;
+		text-decoration:none;
+		font-weight:bolder;
+		font-size:14px;
+	}
+	
+	a:visited {
+		font-family:"Aqua Grotesque";		
+		color:#595959;
+		text-decoration:none;
+		font-weight:bolder;
+	}
+
+	a:hover {
+		font-family:"Aqua Grotesque";	
+		color:#A4D25C;
+		text-decoration:none;
+		font-weight:bolder;
+	}
+	
+	#logo {
+		position:absolute;
+		width:20%;
+		height:10%;
+		margin-left:10%;
+		font-weight:bolder;
+	}
+	
+	#lik {
+		position:absolute;
+		width:10%;
+		height:200px;
+		margin-top:20%;
+		font-family:"Aqua Grotesque";	
+		margin-left:19%;
+		font-size:1.5em;
+		font-weight:bolder;
+	}
+	
+	#lik2 {
+		position:absolute;
+		width:50%;
+		margin-top:20%;
+		margin-left:29%;
+		font-family:"Aqua Grotesque";
+		color:#595959;
+		font-size:1.3em;
+		font-weight:bolder;
+	}
+	
+	#minhavo {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		font-size:1.9em;
+		font-weight:bolder;
+		color:#595959;
+		margin-left:30%;
+		margin-top:23%;
+	}
+	
+	#meuvo {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		font-size:1.9em;
+		color:#595959;
+		margin-left:30%;
+		margin-top:27%;
+	}
+}
+	/*Tablets*/
+	@media screen and (max-width: 768px) {
+
+	}
+
+	/*Cellphones*/
+	@media screen and (max-width: 520px) {
+
+	}

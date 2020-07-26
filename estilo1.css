@@ -1,0 +1,1073 @@
+@charset "utf-8";
+@media screen and (max-width: 1920px) {
+	* {
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+
+	img {   /*imagens flexiveis*/
+		max-width: 100%;   
+		height: auto;  
+	} 
+
+	a:link {
+		font-family:"Aqua Grotesque";
+		color:#595959;
+		text-decoration:none;
+		font-weight:bolder;
+		font-size:14px;
+	}
+
+	a:hover {
+		font-family:"Aqua Grotesque";
+		color:#A4D25C;
+		text-decoration:none;
+		font-weight:bolder;
+	}
+
+	#container {
+		max-width:100%; /* Largura máxima */
+		margin:0 auto; /* Alinha ao centro */
+		overflow:hidden;
+	}
+
+	#header {
+		position:fixed;
+		width:100%;
+		height:20%;
+		box-sizing:border-box;
+		background-color:#fff;
+		border-bottom:1px solid #A4D25C;
+		z-index:10;
+	}
+
+	#social {
+		position:absolute;
+		width:55%;
+		height:40%;
+		margin-top:3%;
+		margin-left:73%;
+
+	}
+
+	#social ul {
+		list-style:none;
+		width:80%;
+	}
+
+	#social ul li { /*Line of ul*/
+		display:inline-block; /*Horizontal social Menu*/
+		padding-left:0%;
+	}
+
+	#logo {
+		position:absolute;
+		width:20%;
+		height:70%;
+		z-index:11;
+		margin-left:10%;
+	}
+
+	#menu {
+		position:absolute;
+		width:65.39531%;
+		height:30px;
+		margin-left:45%;
+		margin-top:7%;
+		box-sizing:border-box;
+	}
+
+	#menu ul {
+		list-style:none;
+		width:100%;
+	}
+
+	#menu ul li {
+		display:inline-block; /*Horizontal social Menu*/
+		padding-left:3%;
+		font-family:arial;
+		font-size:1em;
+		border-radius:4px;
+	}
+
+	input[type=text] {
+		border: 1px solid;
+		border-radius: 8px;
+		height:25px;
+	}
+
+	input[type=email] {
+		border: 1px solid;
+		border-radius: 8px;
+		height:25px;
+	}
+
+	input[type=password] {
+		border: 1px solid;
+		border-radius: 8px;
+		height:25px;
+	}
+
+	input[type=submit] {
+		border: 1px solid;
+		border-radius: 15px;
+		background-color:#404040;
+		font-weight:bolder;
+		font-style:italic;
+		color:#fff;
+		width:26px;
+		height:26px;
+	}
+
+	input[type=submit]:hover {
+		border: 1px solid;
+		border-radius: 15px;
+		background-color:#A4D25C;
+		font-weight:bolder;
+		font-style:italic;
+		color:#fff;
+		width:26px;
+		height:26px;
+	}
+
+	#banner1 {
+		position:absolute;
+		width:100%;
+		background-image:url(banner1920.fw.png);
+		height:563px;
+		z-index:9;
+		margin-top:9%;
+		align-content:center
+	}
+
+	.imagem1 {
+		position:absolute;
+		margin-top:1px;
+	}
+
+	#banner2 {
+		position:absolute;
+		width:100%;
+		height:600px;
+		margin-top:769px;
+		z-index:9;
+	}
+
+	#ima1{
+		position:absolute;
+		margin-left:17.5%;
+		list-style:none;
+		margin-top:22px;
+		
+	}
+	#ima2{
+		position:absolute;
+		margin-left:47.5%;
+		list-style:none;
+		margin-top:22px;
+		
+	}
+	#ima3{
+		position:absolute;
+		margin-left:77.5%;
+		list-style:none;
+		margin-top:22px;
+	}
+
+	#patrocinadores {
+		position:absolute;
+		margin-top:150px;
+		margin-left:15.8%;
+		font-size:1.8em;	
+		list-style:none;
+	}
+
+	#empresas {
+		position:absolute;
+		margin-top:150px;
+		margin-left:47.5%;
+		font-family:"Aqua Grotesque";
+		font-size:1.8em;	
+		list-style:none;
+	}
+
+	#vonlutario {
+		position:absolute;
+		margin-top:150px;	
+		margin-left:77%;
+		font-size:1.8em;	
+		list-style:none;
+	}
+
+	#tex1 {
+		position:absolute;
+		width:20%;
+		margin-top:190px;
+		margin-left:10.5%;
+		list-style:none;
+		text-align:center;
+		font-size:1.5em;
+	}
+
+	#tex2 {
+		position:absolute;
+		width:20%;
+		margin-top:190px;
+		margin-left:40.5%;
+		list-style:none;
+		text-align:center;
+		font-size:1.5em;
+	}
+
+	#tex3 {
+		position:absolute;
+		width:20%;	
+		margin-top:190px;
+		margin-left:70.5%;
+		list-style:none;
+		text-align:center;
+		font-size:1.5em;
+	}
+
+	#banner3 {
+		position:absolute;
+		width:100%;
+		height:560px;
+		background-color:#002100;
+		margin-top:1368px;
+		z-index:9;
+	}
+
+	#ima4 {
+		position:absolute;
+		margin-top:34px;
+	}
+
+	#text {
+		text-align:center;
+		color:#FFFFFF;
+		margin-top:10px;
+		font-size: 1.5em;		
+	}
+
+	#per1 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 60px;
+		margin-left: 70px;
+		font-size: 1.5em;
+		}
+		
+	#resp1 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 100px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+
+	#per2 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 150px;
+		margin-left: 70px;
+		font-size: 1.5em;	
+	}
+
+	#resp2 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 180px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+
+	#per3 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 230px;
+		margin-left: 70px;
+		font-size: 1.5em;
+	}
+	#resp3 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 260px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+
+	#per4 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 310px;
+		margin-left: 70px;
+		font-size: 1.5em;
+	}
+
+	#resp4 {
+		z-index: 2;
+		position: absolute;
+		color: aliceblue;
+		margin-top: 340px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+
+	#banner4 {
+		position:absolute;
+		width:100%;
+		height: 300px;
+		margin-top:2030px;
+		z-index:9;
+	}
+		
+	#cad {
+		margin-left: 35%;
+		list-style: none;
+		margin-top: 10px;
+		font-size: 1.7em;
+	}
+		
+	#cad1 {
+		list-style: none;
+		margin-top: 22px;
+		margin-left: 45.5%;
+	}
+
+	#cad2 {
+
+		list-style: none;
+		position: absolute;
+		margin-top:2px;
+		margin-left: 45.5%;
+	}
+
+	#cad3 {
+		list-style: none;
+		position: absolute;
+		margin-top:30px;
+		margin-left: 45.5%;
+	}
+		
+	#cad4 {
+
+		list-style: none;
+		position: absolute;
+		margin-top:60px;
+		margin-left: 45.5%;
+	}
+
+	#cad5 {
+		list-style: none;
+		position: absolute;
+		margin-top:90px;
+		margin-left: 35%;
+		font-size:1.5em;
+	}
+
+	#cad6 {
+		list-style: none;
+		position: absolute;
+		margin-top:130px;
+		margin-left: 37%;
+		font-size:1.5em;
+	}
+		
+	#cad7 {
+		list-style: none;
+		position: absolute;
+		margin-top:130px;
+		margin-left: 47%;
+		font-size:1.5em;
+	}
+
+	#cad8 {
+		list-style: none;
+		position: absolute;
+		margin-top:130px;
+		margin-left: 55%;
+		font-size:1.5em;
+	}
+	
+	#cad9 {
+		list-style: none;
+		position: absolute;
+		margin-top:130px;
+		margin-left: 65%;
+	}
+
+	#FaleConosco {
+		position: absolute;
+		width: 100%;
+		height: 350px;
+		margin-top: 2370px;
+		z-index: 9;
+		border-top:1px solid #A4D25C;
+	}
+		
+	#letra1 {
+		text-align: center;	
+		font-size:2.0em;
+	}
+		
+	#textt {
+		text-align: center;
+		list-style: none;
+		margin-top: 10px;	
+	}
+		
+	#textt1 {
+		text-align: center;
+		list-style: none;
+		margin-top: 5px;	
+	}
+		
+	#textt2 {
+		text-align: center;
+		list-style: none;
+		margin-top: 5px;	
+	}
+	
+	#textt3 {
+		list-style: none;
+		margin-top: 10px;
+		margin-left:45%;
+	}
+		
+	#textt4 {
+		margin-left:45%;
+		list-style: none;
+		margin-top: 10px;
+	}
+
+	#footer {
+		position:absolute;
+		width:100%;
+		height:280px;
+		background-color:#464637;
+		margin-top:2850px;
+		z-index:9;
+	}
+		
+	#logoFooter {
+		text-align: center;
+	}
+
+	h1 {
+		padding-top:22px;
+		text-align:center;
+		font-family:arial;
+		color:#131304;
+		font-size:1.7em;
+		box-sizing:border-box;
+	}
+
+	h2 {
+		padding-top:22px;
+		text-align:center;
+		font-family:arial;
+		font-size:2.0em;
+		color:#fff;
+		box-sizing:border-box;
+	}
+
+	#home { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:0px;
+		z-index:7;
+	}
+
+	#howit { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:-203px;
+		z-index:7;
+	}
+
+	#doubt { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:-190px;
+		z-index:7;
+	}
+
+	#signin { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:-200px;
+		z-index:7;
+	}
+		
+	#FCon {
+		position:absolute;
+		width: 100% ;
+		height:10px;
+		z-index:7;
+	}	
+}
+
+/*Laptops and Small Desks*/
+@media screen and (max-width: 1366px) {
+	* {
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+
+	img {   /*imagens flexiveis*/
+		max-width: 100%;   
+		height: auto;  
+	}
+
+	#par {
+		text-align:center;
+		font-family:"Aqua Grotesque";
+		font-size:1.3em;
+	}	
+
+	a:link {
+		font-family:"Aqua Grotesque";
+		color:#595959;
+		text-decoration:none;
+		font-weight:bolder;
+		font-size:14px;
+	}
+
+	a:hover {
+		font-family:"Aqua Grotesque";
+		color:#A4D25C;
+		text-decoration:none;
+		font-weight:bolder;
+	}
+
+	#container {
+		max-width:100%; /* Largura máxima */
+		margin:0 auto; /* Alinha ao centro */
+		overflow:hidden;
+	}
+
+	#header {
+		position:fixed;
+		width:100%;
+		height:27%;
+		box-sizing:border-box;
+		background-color:#fff;
+		border-bottom:1px solid #A4D25C;
+		z-index:10;
+	}
+
+	#social {
+		position:absolute;
+		width:55%;
+		height:40%;
+		margin-top:5%;
+		margin-left:73%;
+	}
+
+	#social ul {
+		list-style:none;
+		width:80%;
+	}
+
+	#social ul li { /*Line of ul*/
+		display:inline-block; /*Horizontal social Menu*/
+		padding-left:0%;
+	}
+
+	#logo {
+		position:absolute;
+		width:20%;
+		height:70%;
+		z-index:11;
+		margin-bottom:30%;
+		margin-left:10%;
+	}
+
+	#menu {
+		position:absolute;
+		width:65.39531%;
+		height:30px;
+		margin-left:28%;
+		margin-top:10.1%;
+		box-sizing:border-box;
+	}
+
+	#menu ul {
+		list-style:none;
+		width:100%;
+	}
+
+	#menu ul li {
+		display:inline-block; /*Horizontal social Menu*/
+		padding-left:3%;
+		font-family:arial;
+		font-size:1em;
+		border-radius:4px;
+	}
+
+	input[type=text] {
+		border: 1px solid;
+		border-radius: 8px;
+		height:25px;
+	}
+
+	input[type=email] {
+		border: 1px solid;
+		border-radius: 8px;
+		height:25px;
+	}
+
+	input[type=password] {
+		border: 1px solid;
+		border-radius: 8px;
+		height:25px;
+	}
+
+	input[type=submit] {
+		border: 1px solid;
+		border-radius: 15px;
+		background-color:#404040;
+		font-weight:bolder;
+		font-style:italic;
+		color:#fff;
+		width:26px;
+		height:26px;
+	}
+
+	input[type=submit]:hover {
+		border: 1px solid;
+		border-radius: 15px;
+		background-color:#A4D25C;
+		font-weight:bolder;
+		font-style:italic;
+		color:#fff;
+		width:26px;
+		height:26px;
+	}
+
+	#banner1 {
+		position:absolute;
+		width:100%;
+		height:394px;
+		background-image:url(banner.png);
+		z-index:9;
+		margin-top:180px;
+		align-content:center
+	}
+
+	.imagem1 {
+		position:absolute;
+		margin-top:1px;
+	}
+
+	#banner2 {
+		position:absolute;
+		width:100%;
+		height:530px;
+		margin-top:580px;
+		z-index:9;
+	}
+
+	#ima1{
+		position:absolute;
+		margin-left:16.5%;
+		list-style:none;
+		margin-top:22px;
+	}
+	
+	#ima2{
+		position:absolute;
+		margin-left:46.5%;
+		list-style:none;
+		margin-top:22px;
+	}
+	
+	#ima3{
+		position:absolute;
+		margin-left:76.5%;
+		list-style:none;
+		margin-top:22px;	
+	}
+
+	#patrocinadores {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		margin-top:130px;
+		margin-left:12%;
+		font-size:1.7em;	
+		list-style:none;
+	}
+
+	#empresas {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		margin-top:130px;
+		margin-left:45.8%;
+		font-size:1.7em;	
+		list-style:none;
+	}
+
+	#vonlutario {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		margin-top:130px;	
+		margin-left:75%;
+		font-size:1.7em;	
+		list-style:none;
+	}
+
+	#tex1 {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		width:20%;
+		margin-top:170px;
+		margin-left:10%;
+		list-style:none;
+		text-align:center;
+		font-size:1.2em;
+	}
+
+	#tex2 {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		width:20%;
+		margin-top:170px;
+		margin-left:40.5%;
+		list-style:none;
+		text-align:center;
+		font-size:1.2em;
+	}
+
+	#tex3 {
+		position:absolute;
+		font-family:"Aqua Grotesque";
+		width:20%;	
+		margin-top:170px;
+		margin-left:70.5%;
+		list-style:none;
+		text-align:center;
+		font-size:1.2em;
+	}
+
+	#banner3 {
+		position:absolute;
+		width:100%;
+		height:480px;
+		background-color:#002100;
+		margin-top:1100px;
+		z-index:9;
+	}
+
+	#ima4 {
+		position:absolute;
+		margin-top:34px;
+	}
+
+	#text {
+		text-align:center;
+		font-family:"Aqua Grotesque";
+		font-size:1.5em;
+		color:#FFFFFF;
+		margin-top:10px;	
+	}
+	
+	#per1 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 60px;
+		margin-left: 70px;
+		font-size: 20px;
+	}
+	
+	#resp1 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 100px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+		
+	#per2 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 150px;
+		margin-left: 70px;
+		font-size: 20px;
+	}
+		
+	#resp2 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 180px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+		
+	#per3 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 230px;
+		margin-left: 70px;
+		font-size: 20px;
+	}
+		
+	#resp3 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 260px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+		
+	#per4 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 310px;
+		margin-left: 70px;
+		font-size: 20px;
+	}
+		
+	#resp4 {
+		z-index: 2;
+		position: absolute;
+		font-family:"Aqua Grotesque";
+		color: aliceblue;
+		margin-top: 340px;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+
+	#banner4 {
+		position:absolute;
+		width:100%;
+		height: 525px;
+		margin-top: 1600px;
+		z-index:9;
+	}
+		
+	#cad {
+		list-style: none;
+		font-family:"Aqua Grotesque";
+		margin-top: 10px;
+		margin-left:30%;
+	}
+		
+	#cad1 {
+		list-style: none;
+		margin-left: 43.5%;
+	}
+
+	#cad2 {
+		list-style: none;
+		position: absolute;
+		margin-top:5px;
+		margin-left: 43.5%;
+	}
+
+	#cad3 {
+		list-style: none;
+		position: absolute;
+		margin-top:35px;
+		margin-left: 43.5%;
+	}
+		
+	#cad4 {
+		list-style: none;
+		position: absolute;
+		margin-top:65px;
+		margin-left: 43.5%;
+	}
+
+	#cad5 {
+		list-style: none;
+		font-family:"Aqua Grotesque";
+		position: absolute;
+		margin-top:90px;
+		margin-left: 30%;
+	}
+
+	#cad6 {
+		list-style: none;
+		font-family:"Aqua Grotesque";
+		position: absolute;
+		margin-top:130px;
+		margin-left: 30%;
+	}
+		
+	#cad7 {
+		list-style: none;
+		font-family:"Aqua Grotesque";
+		position: absolute;
+		margin-top:130px;
+		margin-left: 46%;
+	}
+
+	#cad8 {
+		list-style: none;
+		font-family:"Aqua Grotesque";
+		position: absolute;
+		margin-top:130px;
+		margin-left: 58%;
+	}
+	
+	#cad9 {
+		list-style: none;
+		position: absolute;
+		margin-top:130px;
+		margin-left: 70%;
+	}
+	
+	#cad10 {
+		border: 1px solid;
+		border-radius: 15px;
+		background-color:#404040;
+		font-weight:bolder;
+		font-style:italic;
+		color:#fff;
+		width:26px;
+		height:26px;
+	}
+
+	#FaleConosco {
+		position: absolute;
+		width: 100%;
+		height: 350px;
+		margin-top: 2000px;
+		z-index: 9;
+	}
+		
+	#letra1 {
+		text-align: center;
+		font-size:3em;
+	}
+		
+	#textt {
+		text-align: center;
+		list-style: none;
+		margin-top: 10px;	
+	}
+		
+	#textt1 {
+		text-align: center;
+		list-style: none;
+		margin-top: 10px;		
+		}
+		
+	#textt2 {
+		text-align: center;
+		list-style: none;
+		margin-top: 10px;	
+	}
+		
+	#textt3 {
+		list-style: none;
+		margin-top: 10px;
+		margin-right:10%;
+	}
+		
+	#textt4 {
+		list-style: none;
+		margin-top: 10px;
+		margin-left:43.5%;
+	}
+
+	#footer {
+		position:absolute;
+		width:100%;
+		height:300px;
+		background-color:#373737;
+		margin-top:2400px;
+		z-index:9;
+	}
+		
+	#logoFooter {
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	h1 {
+		padding-top:22px;
+		text-align:center;
+		font-family:"The Bully_PersonalUseOnly";
+		color:#131304;
+		font-size:3em;
+		box-sizing:border-box;
+	}
+
+	h2 {
+		padding-top:22px;
+		text-align:center;
+		font-family:"The Bully_PersonalUseOnly";
+		font-size:3em;
+		color:#fff;
+		box-sizing:border-box;
+	}
+
+	#home { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:0px;
+		z-index:7;
+	}
+
+	#howit { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:-170px;
+		z-index:7;
+	}
+
+	#doubt { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:-173px;
+		z-index:7;
+	}
+
+	#signin { /*anchor*/
+		position:absolute;
+		width:100%;
+		height:10px;
+		margin-top:-185px;
+		z-index:7;
+	}
+		
+	#FCon {
+		position:absolute;
+		width: 100% ;
+		height:10px;
+		margin-top:-203px;
+		z-index:7;
+	}
+}
